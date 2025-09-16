@@ -180,7 +180,8 @@
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
     "[yaml]": {
-        "diffEditor.ignoreTrimWhitespace": false
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     //--------------------------------------------------------------------------------> Live Server
     "liveServer.settings.donotShowInfoMsg": true,
@@ -223,6 +224,11 @@
     "sync.forceUpload": false,
     "sync.gist": "39a2a6a2b8d15f0de87b9123ad0e6493",
     "sync.quietSync": true,
+    "syncSettings.crons": {
+        "review": "0 * * * *", // every hour
+        "download": "0 9 * * *", // at 9AM, every day
+        "upload": "0 17 * * *" // at 5PM, every day
+    },
     //--------------------------------------------------------------------------------> Tailwind
     "tailwindCSS.emmetCompletions": true,
     "tailwindCSS.includeLanguages": {
