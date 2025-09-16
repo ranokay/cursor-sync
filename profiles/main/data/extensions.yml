@@ -1,9 +1,7 @@
 builtin:
   disabled:
     - undefined.cursor-themes
-disabled:
-  - id: alefragnani.project-manager
-    uuid: 00000000-0000-0000-0000-000000000000
+disabled: []
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
@@ -59,8 +57,6 @@ enabled:
     uuid: af8cfc85-cb72-45d0-bae2-9a98cd0c69f3
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
-  - id: wayou.vscode-todo-highlight
-    uuid: 97a08c5f-6667-4242-a5c5-045dfb6bd4b9
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: zokugun.cron-tasks
