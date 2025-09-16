@@ -1,10 +1,363 @@
 {
-    "window.commandCenter": true,
-    "sync.gist": "39a2a6a2b8d15f0de87b9123ad0e6493",
+    //--------------------------------------------------------------------------------> Better Comments
+    "better-comments.tags": [
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "FIX",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#0090ff",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "QUESTION",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF8C00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "TODO",
+            "underline": false
+        }
+    ],
+    //--------------------------------------------------------------------------------> Colorize
+    "colorize.colorized_colors": [
+        "ARGB",
+        "BROWSERS_COLORS",
+        "HEXA",
+        "HSL",
+        "RGB"
+    ],
+    "colorize.colorized_variables": [
+        "CSS",
+        "SASS"
+    ],
+    "colorize.exclude": [
+        "**/.DS_Store",
+        "**/.git",
+        "**/.hg",
+        "**/.svn",
+        "**/CVS",
+        "**/bower_components",
+        "**/build",
+        "**/dist",
+        "**/node_modules",
+        "**/tests",
+        "**/tmp"
+    ],
+    "colorize.languages": [
+        "javascript",
+        "typescript"
+    ],
+    //--------------------------------------------------------------------------------> Cursor
+    "cursor.composer.shouldAllowCustomModes": true,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.cpp.disabledLanguages": [
+        "markdown",
+        "plaintext",
+        "scminput"
+    ],
+    //--------------------------------------------------------------------------------> Editor
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActionsOnSave": {
+        "quickfix.biome": "explicit",
+        "source.addMissingImports": "explicit",
+        "source.organizeImports.biome": "explicit"
+    },
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.fontFamily": "'JetBrains Mono', 'Geist Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.foldingMaximumRegions": 20000,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.insertSpaces": false,
+    "editor.linkedEditing": true,
+    "editor.minimap.autohide": true,
+    "editor.minimap.enabled": true,
+    "editor.mouseWheelZoom": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.tokenColorCustomizations": {
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        },
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "textMateRules": []
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "on",
+    //--------------------------------------------------------------------------------> Emmet
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    //--------------------------------------------------------------------------------> Explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    //--------------------------------------------------------------------------------> File Handling
+    "files.associations": {
+        "*.mdx": "mdx",
+        "App.css": "tailwindcss",
+        "global.css": "tailwindcss",
+        "globals.css": "tailwindcss",
+        "tailwind.css": "tailwindcss"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/Thumbs.db": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/.git": true,
+        "**/.git/objects/**": false,
+        "**/.git/subtree-cache/**": false
+    },
+    "files.autoSave": "onFocusChange",
+    //--------------------------------------------------------------------------------> Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    //--------------------------------------------------------------------------------> Language Specific
+    "[dotenv]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[ignore]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    //--------------------------------------------------------------------------------> Live Server
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    //--------------------------------------------------------------------------------> Misc
+    "diffEditor.ignoreTrimWhitespace": true,
+    "projectManager.git.baseFolders": [
+        "/Users/ranokay/Nextcloud/projects"
+    ],
+    "react-native-tools.showUserTips": false,
+    "redhat.telemetry.enabled": false,
+    "search.exclude": {
+        "**/.git": true
+    },
+    "security.promptForLocalFileProtocolHandling": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    //--------------------------------------------------------------------------------> Nix
+    "nix.enableLanguageServer": true,
+    "nix.formatterPath": "alejandra",
+    "nix.serverPath": "nil",
+    //--------------------------------------------------------------------------------> Notebook
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    "notebook.formatOnSave.enabled": true,
+    //--------------------------------------------------------------------------------> Python
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "python.languageServer": "None",
+    //--------------------------------------------------------------------------------> Settings Sync
     "sync.autoDownload": true,
-    "sync.forceDownload": true,
-    "sync.quietSync": false,
-    "workbench.sideBar.location": "right",
+    "sync.autoUpload": true,
+    "sync.forceDownload": false,
+    "sync.forceUpload": false,
+    "sync.gist": "39a2a6a2b8d15f0de87b9123ad0e6493",
+    "sync.quietSync": true,
+    //--------------------------------------------------------------------------------> Tailwind
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    //--------------------------------------------------------------------------------> Terminal
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.env.osx": {
+        "CW_NEW_SESSION": "1"
+    },
+    "terminal.integrated.smoothScrolling": true,
+    //--------------------------------------------------------------------------------> Todo Tree
+    "todo-tree.general.tagGroups": {
+        "FIXME": [
+            "FIX",
+            "FIXIT",
+            "FIXME"
+        ]
+    },
+    "todo-tree.general.tags": [
+        "FIX",
+        "QUESTION",
+        "TODO"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "FIX": {
+            "icon": "flame",
+            "iconColour": "#FF2D00"
+        },
+        "QUESTION": {
+            "icon": "question",
+            "iconColour": "#0090ff"
+        },
+        "TODO": {
+            "icon": "check",
+            "iconColour": "#00FF00"
+        }
+    },
+    //--------------------------------------------------------------------------------> TypeScript/JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    //--------------------------------------------------------------------------------> Window
+    "window.restoreWindows": "none",
+    //--------------------------------------------------------------------------------> Workbench
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "activityBar.activeBackground": "#000",
+            "activityBar.border": "#0f0f14",
+            "activityBar.foreground": "#3d59a1",
+            "list.activeSelectionBackground": "#000",
+            "list.focusBackground": "#000",
+            "list.hoverBackground": "#000",
+            "menu.selectionBackground": "#000",
+            "menu.selectionForeground": "#3d59a1",
+            "menubar.selectionBackground": "#000",
+            "menubar.selectionForeground": "#3d59a1",
+            "tab.activeBackground": "#000",
+            "tree.indentGuidesStroke": "#787c99"
+        }
+    },
     "workbench.colorTheme": "Tokyo Night",
-    "editor.fontSize": 14
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.iconTheme": "catppuccin-latte",
+    "workbench.list.smoothScrolling": true,
+    "workbench.sideBar.location": "right",
+    "intelephense.stubs": [
+        "apache",
+        "bcmath",
+        "bz2",
+        "calendar",
+        "com_dotnet",
+        "Core",
+        "ctype",
+        "curl",
+        "date",
+        "dba",
+        "dom",
+        "enchant",
+        "exif",
+        "FFI",
+        "fileinfo",
+        "filter",
+        "fpm",
+        "ftp",
+        "gd",
+        "gettext",
+        "gmp",
+        "hash",
+        "iconv",
+        "imap",
+        "intl",
+        "json",
+        "ldap",
+        "libxml",
+        "mbstring",
+        "meta",
+        "mysqli",
+        "oci8",
+        "odbc",
+        "openssl",
+        "pcntl",
+        "pcre",
+        "PDO",
+        "pgsql",
+        "Phar",
+        "posix",
+        "pspell",
+        "random",
+        "readline",
+        "Reflection",
+        "session",
+        "shmop",
+        "SimpleXML",
+        "snmp",
+        "soap",
+        "sockets",
+        "sodium",
+        "SPL",
+        "sqlite3",
+        "standard",
+        "superglobals",
+        "sysvmsg",
+        "sysvsem",
+        "sysvshm",
+        "tidy",
+        "tokenizer",
+        "xml",
+        "xmlreader",
+        "xmlrpc",
+        "xmlwriter",
+        "xsl",
+        "Zend OPcache",
+        "zip",
+        "zlib",
+        "wordpress"
+    ],
 }
