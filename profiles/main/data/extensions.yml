@@ -1,0 +1,9 @@
+builtin:
+  disabled:
+    - undefined.cursor-themes
+disabled: []
+enabled:
+  - id: enkia.tokyo-night
+    uuid: 1cac7443-911e-48b9-8341-49f3880c288a
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

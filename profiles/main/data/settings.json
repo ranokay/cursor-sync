@@ -1,0 +1,10 @@
+{
+    "window.commandCenter": true,
+    "sync.gist": "39a2a6a2b8d15f0de87b9123ad0e6493",
+    "sync.autoDownload": true,
+    "sync.forceDownload": true,
+    "sync.quietSync": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.fontSize": 14
+}
