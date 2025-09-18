@@ -3,6 +3,8 @@ builtin:
     - undefined.cursor-themes
 disabled: []
 enabled:
+  - id: 21st-dev.21st-extension
+    uuid: 388c9659-7fca-452a-b32b-0396af26515d
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: albert.TabOut
