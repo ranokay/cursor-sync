@@ -258,4 +258,5 @@
     "intelephense.stubs": [
         "wordpress"
     ],
+    "editor.accessibilitySupport": "off",
 }
