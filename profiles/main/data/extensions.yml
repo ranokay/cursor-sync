@@ -41,6 +41,8 @@ enabled:
     uuid: 90c308b2-fb23-42d4-a902-c7a56b62fe5a
   - id: kisstkondoros.vscode-gutter-preview
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
+  - id: mechatroner.rainbow-csv
+    uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: msjsdiag.vscode-react-native
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
   - id: naumovs.color-highlight
