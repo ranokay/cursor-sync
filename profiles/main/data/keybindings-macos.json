@@ -5,10 +5,6 @@
         "command": "composerMode.agent"
     },
     {
-        "key": "cmd+e",
-        "command": "composerMode.background"
-    },
-    {
         "key": "shift+cmd+r",
         "command": "workbench.action.reloadWindow"
     },
