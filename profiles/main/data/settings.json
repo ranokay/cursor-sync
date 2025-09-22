@@ -327,4 +327,5 @@
         "zlib",
         "wordpress"
     ],
+    "json.maxItemsComputed": 10000,
 }
