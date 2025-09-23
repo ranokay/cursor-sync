@@ -328,4 +328,7 @@
         "wordpress"
     ],
     "json.maxItemsComputed": 10000,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
 }
