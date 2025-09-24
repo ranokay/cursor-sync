@@ -33,7 +33,6 @@
     "cursor.composer.shouldAllowCustomModes": true,
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "cursor.cpp.disabledLanguages": [
-        "markdown",
         "plaintext",
         "scminput"
     ],
