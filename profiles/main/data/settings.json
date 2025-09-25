@@ -330,4 +330,5 @@
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
+    "diffEditor.hideUnchangedRegions.enabled": true,
 }
