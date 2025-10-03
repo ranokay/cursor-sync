@@ -43,6 +43,8 @@ enabled:
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
+  - id: MermaidChart.vscode-mermaid-chart
+    uuid: fc969a50-709b-438b-82f3-a3afa38993c4
   - id: msjsdiag.vscode-react-native
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
   - id: naumovs.color-highlight
@@ -57,11 +59,15 @@ enabled:
     uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: tomoki1207.pdf
+    uuid: 6db08635-0c6a-45ba-9a4b-8c3e192c63c2
   - id: unifiedjs.vscode-mdx
     uuid: af8cfc85-cb72-45d0-bae2-9a98cd0c69f3
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
+  - id: yzane.markdown-pdf
+    uuid: f015bc3c-a098-4245-8765-615e002e09ab
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
