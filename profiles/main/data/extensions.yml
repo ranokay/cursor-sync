@@ -1,10 +1,16 @@
 builtin:
   disabled:
     - undefined.cursor-themes
-disabled: []
-enabled:
+disabled:
   - id: 21st-dev.21st-extension
     uuid: 388c9659-7fca-452a-b32b-0396af26515d
+  - id: kamadorueda.alejandra
+    uuid: 90c308b2-fb23-42d4-a902-c7a56b62fe5a
+  - id: MermaidChart.vscode-mermaid-chart
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: yzane.markdown-pdf
+    uuid: f015bc3c-a098-4245-8765-615e002e09ab
+enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: albert.TabOut
@@ -37,14 +43,10 @@ enabled:
     uuid: b2c4b5bf-9bda-4c81-96b6-d2f28401c4fb
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
-  - id: kamadorueda.alejandra
-    uuid: 90c308b2-fb23-42d4-a902-c7a56b62fe5a
   - id: kisstkondoros.vscode-gutter-preview
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
-  - id: MermaidChart.vscode-mermaid-chart
-    uuid: fc969a50-709b-438b-82f3-a3afa38993c4
   - id: msjsdiag.vscode-react-native
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
   - id: naumovs.color-highlight
@@ -67,7 +69,5 @@ enabled:
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
-  - id: yzane.markdown-pdf
-    uuid: f015bc3c-a098-4245-8765-615e002e09ab
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
